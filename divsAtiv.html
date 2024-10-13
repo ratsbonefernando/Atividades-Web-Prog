@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade sobre as divs</title>
+    <style>
+        #geral {
+            width: 800px;
+            margin: auto;
+            background-color: #fababa;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        #Banner {
+            width: 800px;
+            background-color: #cafefe;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #leftBanner {
+            width: 390px;
+            height: 200px;
+            background-color: #fefeca;
+        }
+        #rightBanner{
+            width: 390px;
+            height: 200px;
+            background-color: #fefeca;
+        }
+        #Imagens {
+            width: 800px;
+            background-color: green;
+            padding: 10px;
+        }
+
+        #imgs {
+            display: flex;
+            justify-content: space-around;
+            height: 160px;
+        }
+
+        .fotoPerfil {
+            width: 160px;
+            height: 160px;
+            background-color: #fababa;
+        }
+    </style>
+</head>
+<body>
+    <div id="geral">
+        <div id="Banner">
+            <div id="leftBanner"></div>
+            <div id="rightBanner"></div>
+        </div>
+        <div id="Imagens">
+            <div id="imgs">
+                <div class="fotoPerfil"></div>
+                <div class="fotoPerfil"></div>
+                <div class="fotoPerfil"></div>
+                <div class="fotoPerfil"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
